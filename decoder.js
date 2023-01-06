@@ -1,25 +1,33 @@
-const botao = document.querySelector("#cripto");
-const outrobotao = document.querySelector("#descripto");
+const botao = document.querySelector("#send");
+const desenviar = document.querySelector("#nosend");
+const copiar = document.querySelector("#copiar");
 
 botao.addEventListener("click", function(e) {
     e.preventDefault();
 
-    const texto = document.querySelector("#texto-1");
-
-    const value = texto.value;
-
-    var element = document.getElementById('caixa-2');
-    element.innerHTML = value + '<input type="submit" value="Copiar" class="botao-copiar">';
-})
-
-outrobotao.addEventListener("click", function(e) {
-    e.preventDefault();
-
-    const name = document.querySelector("#texto-1");
+    const name = document.querySelector("#name");
+    const codigo = document.querySelector("#codigo")
 
     const value = name.value;
 
-    var element = document.getElementById('caixa-2');
-    element.innerHTML = value + '<input type="submit" value="Copiar" class="botao-copiar">';
+    codigo.innerHTML = value;
 })
 
+desenviar.addEventListener("click", function(e) {
+    e.preventDefault();
+
+    const name = document.querySelector("#name");
+    const codigo = document.querySelector("#codigo");
+
+    const value = name.value;
+
+    codigo.innerHTML = value;  
+})
+
+function copia(evento) {
+    codigo.select();
+    codigo.setSelectionRange(0, 99999)
+    document.execCommand("copy");
+}
+
+copiar.onclick = copia;
