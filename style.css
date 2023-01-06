@@ -1,0 +1,115 @@
+html {
+    background-color: #F3F5FC;
+}
+
+.logo {
+    position: absolute;
+    display: inline;
+    margin: 30px;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#caixa-1 {
+    width: 65%;
+    height: 750px;
+    padding-left: 5%;
+}
+
+.texto-1 {
+    background: #F3F5FC;
+    width: 90%;
+    font-size: 20pt;
+    font-weight: bold;
+    padding: 20px;
+    color: #0A3871;
+    height: 40%;
+    margin-top: 100px;
+    border: none;
+}
+
+.botao-1 {
+    padding: 16px;
+    width: 328px;
+    height: 60px;
+    background: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    order: 0;
+    flex-grow: 0;
+    color: #D8DFE8;
+    font-size: x-large;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.botao-2 {
+    padding: 16px;
+    width: 328px;
+    height: 60px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    order: 1;
+    flex-grow: 1;
+    color: #0A3871;
+    font-size: x-large;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-top: 10px;
+}
+
+#caixa-2 {
+    width: 25%;
+    margin-left: 0;
+    background-color: #FFFFFF;
+    padding: 15px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    margin-right: 7px;
+    border-radius: 24px;
+    color: #0A3871;
+    font-size: 20pt;
+    font-weight: bold;
+    font-family: monospace;
+    flex-grow: 1;
+}
+
+.imagem {
+    width: 75%;
+    margin: 30px 10px;
+}
+
+.mini-titulo {
+    font-family: 'Inter';
+    text-align: center;
+    color: rgb(74, 74, 74);
+}
+
+.textinho {
+    font-family: 'Inter';
+    text-align: center;
+    font-weight: normal;
+    color: rgb(74, 74, 74);
+}
+
+.botao-copiar {
+    padding: 16px;
+    width: 250px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    order: 1;
+    flex-grow: 0;
+    color: #0A3871;
+    font-size: x-large;
+}
