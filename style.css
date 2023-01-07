@@ -45,6 +45,12 @@ main {
     font-size: x-large;
     margin-left: 10px;
     margin-top: 10px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.botao-1:hover {
+    transform: scale(1.05);
 }
 
 .botao-2 {
@@ -61,6 +67,12 @@ main {
     margin-left: 15px;
     margin-top: 10px;
     margin-top: 10px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.botao-2:hover {
+    transform: scale(1.05);
 }
 
 #caixa-2 {
@@ -83,9 +95,18 @@ main {
     flex-grow: 1;
 }
 
+.codigo {
+    margin-top: 5%;
+    max-width: 90%;
+    width: auto;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
 .imagem {
     width: 75%;
-    margin: 30px 10px;
+    margin: 25px 10px;
+    max-width: 60%;
 }
 
 .mini-titulo {
@@ -99,6 +120,7 @@ main {
     text-align: center;
     font-weight: normal;
     color: rgb(74, 74, 74);
+    margin-bottom: 10%;
 }
 
 .botao-copiar {
@@ -112,4 +134,11 @@ main {
     flex-grow: 0;
     color: #0A3871;
     font-size: x-large;
+    margin-bottom: 5%;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.botao-copiar:hover {
+    transform: scale(1.05);
 }

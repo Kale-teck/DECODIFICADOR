@@ -1,25 +1,25 @@
-const botao = document.querySelector("#send");
-const desenviar = document.querySelector("#nosend");
+const cripto = document.querySelector("#cripto");
+const descripto = document.querySelector("#descripto");
 const copiar = document.querySelector("#copiar");
 
-botao.addEventListener("click", function(e) {
+cripto.addEventListener("click", function(e) {
     e.preventDefault();
 
-    const name = document.querySelector("#name");
+    const texto = document.querySelector("#texto");
     const codigo = document.querySelector("#codigo")
 
-    const value = name.value;
+    var value = texto.value.toLowerCase();
 
     codigo.innerHTML = value;
 })
 
-desenviar.addEventListener("click", function(e) {
+descripto.addEventListener("click", function(e) {
     e.preventDefault();
 
-    const name = document.querySelector("#name");
+    const texto = document.querySelector("#texto");
     const codigo = document.querySelector("#codigo");
 
-    const value = name.value;
+    const value = texto.value;
 
     codigo.innerHTML = value;  
 })
