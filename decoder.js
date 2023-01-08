@@ -10,7 +10,13 @@ cripto.addEventListener("click", function(e) {
 
     var value = texto.value.toLowerCase();
 
-    codigo.innerHTML = value;
+    var e = value.replace(/e/g, "enter");
+    var i = e.replace(/i/g, "imes");
+    var a = i.replace(/a/g, "ai");
+    var o = a.replace(/o/g, "ober");
+    var u = o.replace(/u/g, "ufat");
+
+    codigo.innerHTML = u;
 })
 
 descripto.addEventListener("click", function(e) {
@@ -21,7 +27,14 @@ descripto.addEventListener("click", function(e) {
 
     const value = texto.value;
 
-    codigo.innerHTML = value;  
+    var e = value.replace(/enter/g, "e");
+    var i = e.replace(/imes/g, "i");
+    var a = i.replace(/ai/g, "a");
+    var o = a.replace(/ober/g, "o");
+    var u = o.replace(/ufat/g, "u");
+
+
+    codigo.innerHTML = u;  
 })
 
 function copia(evento) {

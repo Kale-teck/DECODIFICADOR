@@ -99,8 +99,9 @@ main {
     margin-top: 5%;
     max-width: 90%;
     width: auto;
-    font-size: 20pt;
+    font-size: 18pt;
     font-weight: bold;
+    border: none;
 }
 
 .imagem {
@@ -113,6 +114,7 @@ main {
     font-family: 'Inter';
     text-align: center;
     color: rgb(74, 74, 74);
+    font-size: 20px;
 }
 
 .textinho {
@@ -121,6 +123,7 @@ main {
     font-weight: normal;
     color: rgb(74, 74, 74);
     margin-bottom: 10%;
+    font-size: 18px;
 }
 
 .botao-copiar {
