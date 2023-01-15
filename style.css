@@ -7,6 +7,12 @@ html {
     position: absolute;
     display: inline;
     margin: 30px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.logo:hover {
+    transform: scale(1.15);
 }
 
 main {
@@ -116,10 +122,10 @@ textarea:focus, input:focus, select:focus {
 }
 
 .codigo::placeholder {
-    background-image: url(/imagens/desenho-3.png);
+    background-image: url(/imagens/desenho-caixa-2.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 250px 300px;
+    background-size: contain;
 }
 
 .imagem {
@@ -162,6 +168,35 @@ textarea:focus, input:focus, select:focus {
 
 .botao-copiar:hover {
     transform: scale(1.05);
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(#F3F5FC, #d1daf6a3);
+}
+
+.github-logo {
+    width: 100px;
+    max-width: 150px;
+    margin-top: -12px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.github-logo:hover {
+    transform: scale(1.10);
+}
+
+.footer-logo {
+    max-width: 75px;
+    transition: 1s all;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+
+.footer-logo:hover {
+    transform: scale(1.10);
 }
 
 @media screen and (max-width: 480px) {
