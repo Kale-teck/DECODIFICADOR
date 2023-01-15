@@ -4,22 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width = device-width, initial-scale = 1.0">
     <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="decoder.js" defer></script>
     <title>Decodificador</title>
 </head>
 <body>
-
-    <h1>
-    <img src="logo_alura.png" alt="Logo da escola Alura" class="logo">
-    </h1>
-
+    <header>
+        <h1>
+        <img src="/imagens/logo_alura.png" alt="Logo da escola Alura" class="logo">
+        </h1>
+    </header>
     <main>
         <form id="caixa-1">
             
-            <textarea name="texto" id="texto" cols="60" rows="20" class="texto-1" placeholder="Digite seu texto"></textarea>
+            <textarea name="texto" id="texto" cols="60" rows="20" class="texto-1" placeholder="Digite seu texto" maxlength="200"></textarea>
 
-            <footer>
+            <footer class="footer_caixadetexto">
                 &#128712; Apenas letras minúsculas e sem acento
             </footer>    
 
@@ -28,9 +31,10 @@
             <input type="submit" value="Descriptografar" id="descripto" class="botao-2">
             
         </form>
+
         <form id="caixa-2">
             
-            <textarea name="codigo" id="codigo" class="codigo" cols="30" rows="10" placeholder="
+            <textarea name="codigo" id="codigo" class="codigo" cols="30" rows="10" readonly="" placeholder="
             
             
             
@@ -41,10 +45,17 @@
             
             "></textarea>
 
-            <input type="submit" value="Copiar" id="copiar" class="botao-copiar">
-            
+            <input type="submit" value="Copiar" id="copiar" class="botao-copiar">   
         </form>
-        
     </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="https://github.com/Kale-teck">GitHub</a></li>
+                <li><a href="https://www.instagram.com/kkallebbe/">Instagram</a></li>
+                <li><a href="https://www.linkedin.com/in/kalebe-martins-fullstack/">Linkedin</a></li>
+            </ul>
+        </nav>
+    </footer>
 </body>
 </html>
