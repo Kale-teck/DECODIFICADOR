@@ -122,7 +122,7 @@ textarea:focus, input:focus, select:focus {
 }
 
 .codigo::placeholder {
-    background-image: url(desenho-caixa-2.png);
+    background-image: url(/desenho-caixa-2.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 225px 200px;
