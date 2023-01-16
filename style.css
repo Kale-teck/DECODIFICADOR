@@ -212,7 +212,7 @@ textarea:focus, input:focus, select:focus {
 
     #texto {
         width: 300px;
-        margin-left: 30px;
+        margin-left: 25px;
     }
 
     main footer {
@@ -225,7 +225,7 @@ textarea:focus, input:focus, select:focus {
 
     .botao-1, .botao-2 {
         width: 328px;
-        margin-left: 18px;
+        margin-left: 15px;
         text-align: center;
     }
 
@@ -234,46 +234,41 @@ textarea:focus, input:focus, select:focus {
     }
 }
 
-@media screen and (max-width: 375px) {
-    main {
-        justify-content: center;
-        align-items: center;
-    }
-
-    #caixa-1 {
-        background: #F3F5FC;
-        font-size: 18pt;
-        width: 200px;
-        margin-left: 0%;
-    }
-
+@media screen and (max-width: 380px) {
     #texto {
         width: 300px;
-        padding-left: 0;
-        padding-right: 0%;
-        margin-left: -55px;
+        margin-left: -5px;
     }
 
-    main footer {
+    .botao-1, .botao-2 {
+        width: 300px;
+        margin-left: 15px;
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    #texto {
+        width: 275px;
+        margin-left: -15px;
+    }
+
+    .botao-1, .botao-2 {
+        width: 275px;
+        margin-left: 0px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    #texto {
+        width: 250px;
+        margin-left: -15px;
     }
 
     .botao-1, .botao-2 {
         width: 250px;
-        margin-left: -24px;
+        margin-left: 0px;
         text-align: center;
-    }
-
-    #caixa-2 {
-        margin-top: -20%;
-        margin-left: 12%;
-    }
-
-    .botao-copiar {
-        width: 200px;
-    }
-
-    .rodape {
-        width: 325px;
     }
 }
