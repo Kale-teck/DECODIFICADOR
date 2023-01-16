@@ -207,17 +207,20 @@ textarea:focus, input:focus, select:focus {
     }
 
     #caixa-1 {
-        width: 380px;
-        align-items: center;
+        width: 300px;
     }
 
     #texto {
         width: 300px;
-        margin-left: 15px;
+        margin-left: 30px;
     }
 
     main footer {
         text-align: center;
+    }
+
+    .footer_caixadetexto {
+        opacity: 0%;
     }
 
     .botao-1, .botao-2 {
@@ -238,13 +241,17 @@ textarea:focus, input:focus, select:focus {
     }
 
     #caixa-1 {
-        width: 350px;
-        align-items: center;
+        background: #F3F5FC;
+        font-size: 18pt;
+        width: 200px;
+        margin-left: 0%;
     }
 
     #texto {
         width: 300px;
-        margin-left: 15px;
+        padding-left: 0;
+        padding-right: 0%;
+        margin-left: -55px;
     }
 
     main footer {
@@ -252,8 +259,8 @@ textarea:focus, input:focus, select:focus {
     }
 
     .botao-1, .botao-2 {
-        width: 300px;
-        margin-left: 28px;
+        width: 250px;
+        margin-left: -24px;
         text-align: center;
     }
 
@@ -262,7 +269,11 @@ textarea:focus, input:focus, select:focus {
         margin-left: 12%;
     }
 
+    .botao-copiar {
+        width: 200px;
+    }
+
     .rodape {
-        width: 350px;
+        width: 325px;
     }
 }
