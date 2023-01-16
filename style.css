@@ -230,3 +230,39 @@ textarea:focus, input:focus, select:focus {
         margin: -20% 20px 20px;
     }
 }
+
+@media screen and (max-width: 375px) {
+    main {
+        justify-content: center;
+        align-items: center;
+    }
+
+    #caixa-1 {
+        width: 350px;
+        align-items: center;
+    }
+
+    #texto {
+        width: 300px;
+        margin-left: 15px;
+    }
+
+    main footer {
+        text-align: center;
+    }
+
+    .botao-1, .botao-2 {
+        width: 300px;
+        margin-left: 28px;
+        text-align: center;
+    }
+
+    #caixa-2 {
+        margin-top: -20%;
+        margin-left: 12%;
+    }
+
+    .rodape {
+        width: 350px;
+    }
+}
