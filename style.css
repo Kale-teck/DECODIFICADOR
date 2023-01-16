@@ -125,7 +125,8 @@ textarea:focus, input:focus, select:focus {
     background-image: url(/imagens/desenho-caixa-2.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: 225px 200px;
+    text-align: center;
 }
 
 .imagem {

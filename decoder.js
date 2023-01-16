@@ -13,7 +13,7 @@ function checkChar(e) {
     var char = String.fromCharCode(e.keyCode);
   
   console.log(char);
-    var pattern = '[a-zA-Z0-9]';
+    var pattern = '[a-z]';
     if (char.match(pattern)) {
       return true;
   }
@@ -27,17 +27,13 @@ cripto.addEventListener("click", function(e) {
 
     var value = texto.value;
 
-    if (value == value.toLowerCase()) {
-        var e = value.replace(/e/g, "enter");
+    var e = value.replace(/e/g, "enter");
     var i = e.replace(/i/g, "imes");
     var a = i.replace(/a/g, "ai");
     var o = a.replace(/o/g, "ober");
     var u = o.replace(/u/g, "ufat");
 
     codigo.innerHTML = u;
-    } else {
-        alert('Apenas letras minúsculas e sem acento')
-    }
 })
 
 descripto.addEventListener("click", function(e) {
