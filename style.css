@@ -240,6 +240,10 @@ textarea:focus, input:focus, select:focus {
         margin-left: -5px;
     }
 
+    .footer_caixadetexto {
+        opacity: 0%;
+    }
+
     .botao-1, .botao-2 {
         width: 300px;
         margin-left: 15px;
@@ -253,6 +257,10 @@ textarea:focus, input:focus, select:focus {
         margin-left: -15px;
     }
 
+    .footer_caixadetexto {
+        opacity: 0%;
+    }
+
     .botao-1, .botao-2 {
         width: 275px;
         margin-left: 0px;
@@ -264,6 +272,10 @@ textarea:focus, input:focus, select:focus {
     #texto {
         width: 250px;
         margin-left: -15px;
+    }
+
+    .footer_caixadetexto {
+        opacity: 0%;
     }
 
     .botao-1, .botao-2 {
