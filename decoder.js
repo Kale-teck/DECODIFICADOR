@@ -13,7 +13,7 @@ function checkChar(e) {
     var char = String.fromCharCode(e.keyCode);
   
   console.log(char);
-    var pattern = '[a-z]';
+    var pattern = '[a-z ]';
     if (char.match(pattern)) {
       return true;
   }
